@@ -11,7 +11,7 @@ terraform {
   }
   required_version = ">= 1.1.0"
 
-  bavkend "remote" {
+  backend "remote" {
     organization = "ACG-Terraform-Demos"
 
     workspaces {
